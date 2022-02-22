@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="-------Website description-------">
+    <meta name="keywords" content="-------Website keywords-------">
+    <title>Website name</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="elements.css">
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/icon">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#">Website name</a></h1>
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#profission">Profission</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        </div>
+    </aside>
+    <main>
+    <div class="menu-spacing"></div>
+    <section class="section main-bg intro">
+        <div id="intro" class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Intro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eligendi voluptas quaerat, exercitationem fugit tenetur debitis quia blanditiis placeat rem quae mollitia nobis sunt iste dolorum qui laboriosam id deserunt!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt odio ipsum natus? Neque voluptate repellendus quae modi corrupti, soluta deserunt quidem quo voluptatum nam eveniet nisi ratione iusto optio consequuntur.</p>
+            </div>
+            <figure class="intro-img">
+                <img src="/imagens/1.png" alt="Image 1">
+            </figure>
+        </div>
+        </section>
+
+    <section id="profission" class="section white-bg">
+        <div class="main-content profission-content">
+            <h2>Profission</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, quasi! Totam commodi laudantium culpa? Soluta reprehenderit adipisci atque tempora ullam vero, sit totam, temporibus ex ratione sapiente velit eum eveniet.</p>
+            <div class="flex-profission">
+                <ul>
+                    <li>Info 1;</li>
+                    <li>Info 2;</li>
+                    <li>Info 3;</li>
+                    <li>Info 4;</li>
+                    <li>Info 5.</li>
+                </ul>
+                <figure>
+                    <img src="/imagens/2.png" alt="Image 2" style="width: 250px;">
+                </figure>
+            </div>
+        </section>
+        
+        
+        <section id="services" class="section main-bg services">
+            <div class="services-content main-content">
+                <h2>Services</h2>
+               <figure class="img-serv">
+                   <img src="/imagens/3.png" alt="Imagem 3" >
+               </figure>
+                <details class="collapse">
+                    <summary class="title">Service 1</summary>
+                    <div class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatibus odio natus numquam provident aliquam vel iste quasi repellendus nisi vero delectus laboriosam, atque asperiores sint error repellat dolores unde.</div>
+                  </details>
+                  <details class="collapse">
+                    <summary class="title">Service 2</summary>
+                    <div class="description">Aperiam iure corporis doloremque hic aut fugiat tempora minus alias ducimus optio saepe perspiciatis provident, ab exercitationem quos laborum at adipisci voluptatum, laboriosam ut cupiditate recusandae placeat unde. Esse, maiores.</div>
+                  </details>
+                  <details class="collapse">
+                    <summary class="title">Service 3</summary>
+                    <div class="description">Ex, magnam pariatur accusamus rerum nihil quidem et ipsam delectus illum vitae. Dicta reprehenderit harum ut ex eligendi optio obcaecati? Libero neque corporis, sapiente ullam impedit rem ipsam. Dolores, rem?</div>
+                  </details>
+                  <details class="collapse">
+                    <summary class="title">Service 4</summary>
+                    <div class="description">Quos repellendus unde, vel voluptate est, voluptates rem, vero incidunt animi dolore atque! Asperiores dolorem id praesentium molestias magnam est nobis nihil, consectetur tempora consequuntur perspiciatis consequatur earum facere numquam.</div>
+                  </details>
+                  <details class="collapse">
+                    <summary class="title">Service 5</summary>
+                    <div class="description">Tempora ipsam explicabo dignissimos harum, aut ducimus nihil soluta libero veritatis numquam molestiae tenetur, quasi beatae ea similique ullam, neque vitae labore nobis recusandae exercitationem error in? Quod, fugit nihil?</div>
+                  </details>
+            </div>
+        
+    </div>
+
+    
+    </section>
+
+    <section id="gallery" class="section white-bg">
+        <div class="main-content grid-one-content">
+            <h2>Gallery</h2>
+            <div class="container-gallery">
+	
+                <div class="feature">
+                    <figure class="featured-item image-holder r-3-2 transition"></figure>
+                </div>
+                
+                <div class="gallery-wrapper">
+                    <div class="gallery" >
+                            <div class="item-wrapper">
+                                <figure class="gallery-item image-holder r-3-2 active transition"></figure>
+                            </div>
+                            <div class="item-wrapper">
+                                <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                            </div>
+                            <div class="item-wrapper">
+                                <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                            </div>
+                            <div class="item-wrapper">
+                                <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                            </div>
+                            <div class="item-wrapper">
+                                <figure class="gallery-item image-holder r-3-2"></figure>
+                            </div>
+                            <div class="item-wrapper">
+                                <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                            </div>
+                            <div class="item-wrapper">
+                                <figure class="gallery-item image-holder r-3-2 transition"></figure>
+                            </div>
+                            
+                    </div>
+                </div>
+                
+                <div class="controls" style="background-color: salmon;">
+                    <button class="move-btn left" style="font-size: 3rem; color: white;">&larr;</button>
+                    <button class="move-btn right" style="font-size: 3rem; color: white;">&rarr;</button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    <section id="testimonial" class="section main-bg">
+        <div class="dicas-content main-content">
+            <h2>Testimonial</h2>
+            <section class="slideshow-container">
+                <article class="mySlides">
+                  <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et numquam quae est, dolorem maiores reprehenderit quibusdam natus architecto voluptate beatae sunt quam fugiat corporis neque aut fugit aperiam eaque saepe.</q>
+                  <p class="author">Author</p>
+                </article>
+                
+                <article class="mySlides">
+                    <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, necessitatibus? Tempore, ipsum placeat, eum nesciunt aliquam itaque animi consequuntur neque ullam nemo dicta reiciendis consectetur doloribus commodi, eligendi mollitia blanditiis.</q>
+                    <p class="author">Author</p>
+                </article>
+                
+                <article class="mySlides">
+                    <q>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui est porro assumenda, laborum, quibusdam iste blanditiis eius culpa modi, accusantium quis dolor aliquid. Eveniet totam, quidem temporibus nulla fuga nobis.</q>
+                    <p class="author">Author</p>
+                </article>
+
+                <article class="mySlides">
+                    <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum corrupti aperiam blanditiis porro dolores unde, obcaecati quis dolor at, sint iste consequuntur voluptas, dolorum laborum tempore laudantium vero culpa. Sequi.</q>
+                  <p class="author">Author</p>
+                </article>
+
+                <article class="mySlides">
+                    <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quas eligendi accusantium ad sequi id, aspernatur nulla quia itaque corporis aperiam quam ipsam quasi omnis magnam repellat illo veritatis rem!</q>
+                  <p class="author">Author</p>
+                </article>
+
+
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+            </section>
+                
+                <section class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span>  
+                </section>
+            
+        </div>
+    </section>
+    <section id="contacts" class="section white-bg">
+        <div class="main-content profission-content">
+            <h2>Contacts</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corrupti deleniti natus sequi consectetur quaerat praesentium aliquid animi quo ea sapiente ducimus beatae aspernatur a atque, eius in, iusto voluptatum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur saepe placeat, quasi assumenda accusamus nam optio tenetur laboriosam alias iure id. Numquam, ratione maxime? Eaque alias non quia quod facere!</p>
+        </div>
+        
+    </section>
+    </main>
+    <footer class="footer">
+        <h5>Your business name here</h3>
+        <h6>Phrase here</h6>
+        <figure>
+            <img src="/imagens/Logo.png" alt="Logo">
+        </figure>
+        <p class="footer-p"><a href="https://api.whatsapp.com/send?phone=55{telefone}" target="_blank"><img src="/imagens/whatsapp.png" alt="Whatsapp"><strong>Whatsapp</strong></a> | <a href="https://www.instagram.com/" target="_blank"><img src="/imagens/instagram.png" alt=""><strong>Instagram</strong></a></p>
+        
+    </footer>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=55{telefone}" style="display: block; position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+    <script src="script.js"></script>
+    
+</body>
+</html>
